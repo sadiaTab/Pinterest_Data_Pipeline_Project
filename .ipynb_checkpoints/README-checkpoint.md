@@ -49,7 +49,6 @@ The tools used for this project are listed below:
     - *Description:* Managed service for processing and analyzing streaming data.
     - *Documentation:* [AWS Kinesis Documentation](https://aws.amazon.com/kinesis/)
 
-Include relevant links to each tool's documentation for further reference.
 
 
 ## Data Pipeline Building Process
