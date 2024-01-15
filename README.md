@@ -57,7 +57,7 @@ The tools used for this project are listed below:
 
 2. Established the configuration of an EC2 instance as an Apache Kafka client machine for the purpose of creating topics. Subsequently, configured MSK Connect to enable the MSK cluster to transmit data to an S3 bucket, ensuring that any data sent to the topic is automatically saved and stored in a designated S3 bucket. 
 
-![Loading Data](https://github.com/sadiaTab/Pinterest_Data_Pipeline_Project/blob/3004873a47326308f0c2529e3a388392fc052b4b/CloudPinterestPipeline.jpeg)?raw=true)
+![Loading Data](https://github.com/sadiaTab/Pinterest_Data_Pipeline_Project/blob/3004873a47326308f0c2529e3a388392fc052b4b/CloudPinterestPipeline.jpeg)
 
 3. Established an API within AWS API Gateway designed to transmit data to the MSK cluster through the MSK connect connector. Implemented a Kafka REST proxy integration method for the API and configured the Kafka REST proxy on my EC2 client. Activated the REST proxy on the EC2 client machine and adapted the user_posting_emulation.py script to dispatch data to my API. This, in turn, directs the data to the MSK Cluster using the previously established plugin-connector pair, ultimately storing the data in the designated S3 bucket.
 
